@@ -1,0 +1,98 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Cryptocurrency Widgets\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-13 12:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: cryptocurrency-price-ticker-widget.php:337
+msgid "You have not selected any currencies to display"
+msgstr ""
+
+#: cryptocurrency-price-ticker-widget.php:379
+#: cryptocurrency-price-ticker-widget.php:429
+msgid "Name"
+msgstr ""
+
+#: cryptocurrency-price-ticker-widget.php:380
+#: cryptocurrency-price-ticker-widget.php:430
+msgid "Price"
+msgstr ""
+
+#: cryptocurrency-price-ticker-widget.php:382
+msgid "24H (%)"
+msgstr ""
+
+#: cryptocurrency-price-ticker-widget.php:411
+msgid "Previous"
+msgstr ""
+
+#: cryptocurrency-price-ticker-widget.php:412
+msgid "Next"
+msgstr ""
+
+#: cryptocurrency-price-ticker-widget.php:413
+msgid "Loading..."
+msgstr ""
+
+#: cryptocurrency-price-ticker-widget.php:414
+msgid "No Coin Found"
+msgstr ""
+
+#: cryptocurrency-price-ticker-widget.php:428
+msgid "#"
+msgstr ""
+
+#: cryptocurrency-price-ticker-widget.php:431
+msgid "Changes 24h"
+msgstr ""
+
+#: cryptocurrency-price-ticker-widget.php:432
+msgid "Market CAP"
+msgstr ""
+
+#: cryptocurrency-price-ticker-widget.php:434
+msgid "Volume"
+msgstr ""
+
+#: cryptocurrency-price-ticker-widget.php:435
+msgid "Supply"
+msgstr ""
+
+#. Name of the plugin
+msgid "Cryptocurrency Widgets"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Cryptocurrency Widgets WordPress plugin displays current prices of crypto "
+"coins - bitcoin, ethereum, ripple etc. similar like CoinMarketCap. Add "
+"<strong><a href=\"https://1.envato.market/c/1258464/275988/4415?"
+"u=https%3A%2F%2Fcodecanyon.net%2Fitem%2Fcryptocurrency-price-ticker-widget-"
+"pro-wordpress-plugin%2F21269050\">premium cryptocurrency widgets</a></strong>"
+" inside your crypto blog or website. <strong><a href=\"https://1.envato."
+"market/c/1258464/275988/4415?u=https%3A%2F%2Fcodecanyon.net%2Fitem%2Fcoin-"
+"market-cap-prices-wordpress-cryptocurrency-plugin%2F21429844\">Click to "
+"create a website similar like coinmarketcap.com.</a></strong>"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://cryptowidget.coolplugins.net/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Cool Plugins"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://coolplugins.net/"
+msgstr ""

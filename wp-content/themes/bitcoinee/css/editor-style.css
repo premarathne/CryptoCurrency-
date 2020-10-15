@@ -1,0 +1,24 @@
+body#tinymce {
+	max-width: 715px;
+}
+
+body#tinymce.wp-editor { 
+	font-size: 16px;
+	line-height: 1.6;
+	font-family: 'Open Sans', sans-serif;
+	color: #282b2d;
+	margin-bottom: 2em;
+}
+ 
+body#tinymce.wp-editor a {
+    color: #ff9f1c;
+}
+
+body#tinymce.wp-editor h1,
+body#tinymce.wp-editor h2,
+body#tinymce.wp-editor h3,
+body#tinymce.wp-editor h4,
+body#tinymce.wp-editor h5,
+body#tinymce.wp-editor h6 {
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+}

@@ -1,0 +1,26 @@
+includes:
+    - vendor/phpstan/phpstan/conf/bleedingEdge.neon
+    - vendor/thecodingmachine/phpstan-strict-rules/phpstan-strict-rules.neon
+    - vendor/szepeviktor/phpstan-wordpress/extension.neon
+parameters:
+    level: max
+    inferPrivatePropertyTypeFromConstructor: true
+    paths:
+        - %currentWorkingDirectory%/src/
+    scanFiles:
+        - %currentWorkingDirectory%/tests/phpstan/bootstrap.php
+        - %currentWorkingDirectory%/tests/phpstan/wp-cli-stubs-2.2.0.php
+    ignoreErrors:
+        # TODO I should really develop a tiny Request Handler.
+        # https://gist.github.com/nicolas-grekas/1028251#improving-native-php-interface
+        - message: '#^In method "WP2Static\\\S+::\S+", you should not use the \$_(GET|POST) superglobal#'
+          path: src/Controller.php
+          count: 5
+        - message: '#^In method "WP2Static\\\S+::\S+", you should not use the \$_(GET|POST) superglobal#'
+          path: src/CoreOptions.php
+          count: 19
+        - message: '#^In method "WP2Static\\\S+::\S+", you should not use the \$_(GET|POST) superglobal#'
+          path: src/ViewRenderer.php
+          count: 32
+    excludes_analyse:
+        - %currentWorkingDirectory%/src/SiteCrawler.php
